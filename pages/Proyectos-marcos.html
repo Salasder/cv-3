@@ -214,11 +214,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="Index-daniel.html">Inicio</a>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../Index.html">Inicio</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link active"
+                        <li class="nav-item"><a class="nav-link"
                                 href="Habilidades-estudios-nicolas.html">Habilidades</a></li>
-                        <li class="nav-item"><a a class="nav-link" href="Proyectos-marcos.html">Proyectos</a></li>
+                        <li class="nav-item"><a a class="nav-link active" href="Proyectos-marcos.html">Proyectos</a>
+                        </li>
                         <li class="nav-item"><a a class="nav-link" href="Contacto-marcos.html">Contacto</a></li>
                     </ul>
                 </div>
@@ -227,132 +228,180 @@
     </main>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     </section>
-    <h1 class="habilidades">Estudios-Habilidades</h1>
-    <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
 
+    <!-- PROYECTOS -->
 
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225"
-                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                                Habilidades-Personales
-                            </text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Entre mis hablidades personales se encuentran:
-                            <ul>
-                                <li>la empatia</li>
-                                <li>el respeto</li>
-                                <li>el compañerismo</li>
-                            </ul>
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
+    <section id="proyectos" class="container py-5">
 
+        <h2 class="text-center mb-4">
+            Proyectos
+        </h2>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div id="proyectosCarrusel" class="carousel slide">
 
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225"
-                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                                primaria-Basica Secundaria
-                            </text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Realize mis primeros estudios en:
-                            <ul>
-                                <li>colegio:Instituto Tecnico Industrial Rafael Reyes</li>
-                                <li>año:2015-2024</li>
-                            </ul>
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
+            <!-- INDICADORES -->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225"
-                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                                Bachillerato
-                            </text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Realize mis estudios de bachillerato en:
-                            <ul>
-                                <li>colegio:Instituto Tecnico Industrial Rafael Reyes</li>
-                                <li>año:2024-2026</li>
-                            </ul>
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
+            <div class="carousel-indicators">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225"
-                            preserveAspectRatio="xMidYMid slice" role="img" width="100%"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                                Tecnico
-                            </text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">
-                                Durante mi bachillerato realice un tecnico verificado por:
-                            <ul>
-                                <li>Institucion: Servicio Nacional De Aprendizaje</li>
-                                <li>año:2024-2026</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <button type="button" data-bs-target="#proyectosCarrusel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Proyecto 1">
+                </button>
+
+                <button type="button" data-bs-target="#proyectosCarrusel" data-bs-slide-to="1" aria-label="Proyecto 2">
+                </button>
+
+                <button type="button" data-bs-target="#proyectosCarrusel" data-bs-slide-to="2" aria-label="Proyecto 3">
+                </button>
+
             </div>
+
+
+            <!-- CONTENIDO DEL CARRUSEL -->
+
+            <div class="carousel-inner">
+
+
+                <!-- PROYECTO 1 -->
+
+                <div class="carousel-item active">
+
+                    <div class="text-center">
+
+                        <img src="../assets/images/proyecto2.png" class="img-fluid" alt="Proyecto 1"
+                            style="width: 500px; height: 280px; object-fit: contain;">
+
+                        <div class="mt-3">
+
+                            <h3>
+                                Página Web
+                            </h3>
+
+                            <p>
+                                Página web realizada con el fin de solcionar el problema con base al registro y la buena
+                                actividad bovina dentro de un hato o finca tipo empresea ganadera.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                Ver proyecto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROYECTO 2 -->
+
+                <div class="carousel-item">
+
+                    <div class="text-center">
+
+                        <img src="../assets/images/image.png" class="img-fluid" alt="Proyecto 2"
+                            style="width: 500px; height: 280px; object-fit: cover;">
+
+                        <div class="mt-3">
+
+                            <h3>
+                                Proyecto de Buggie 4x4
+                            </h3>
+
+                            <p>
+                                Proyecto de desarrollo de un vehiculo motorizado tipo 4x4.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                Ver proyecto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROYECTO 3 -->
+
+                <div class="carousel-item">
+
+                    <div class="text-center">
+
+                        <img src="../assets/images/personal proyecto.jpg" class="img-fluid" alt="Proyecto 3"
+                            style="width: 500px; height: 280px; object-fit: cover;">
+
+                        <div class="mt-3">
+
+                            <h3>
+                                Proyecto Personal
+                            </h3>
+
+                            <p>
+                                Proyecto realizado durante la formación.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                Ver proyecto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- BOTÓN ANTERIOR -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#proyectosCarrusel"
+                data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon bg-dark"></span>
+
+                <span class="visually-hidden">
+                    Anterior
+                </span>
+
+            </button>
+
+
+            <!-- BOTÓN SIGUIENTE -->
+
+            <button class="carousel-control-next" type="button" data-bs-target="#proyectosCarrusel"
+                data-bs-slide="next">
+
+                <span class="carousel-control-next-icon bg-dark"></span>
+
+                <span class="visually-hidden">
+                    Siguiente
+                </span>
+
+            </button>
+
         </div>
-    </div>
+
+    </section>
+
 </body>
 <!-- PIE DE PAGINA -->
 
 <footer class="bg-dark text-white text-center p-3">
 
     <p>
-        © 2026 Hoja de Vida
-        &copy; 202 Terrabovinos S.A.S
+        © 2026 Hoja de Vida,&copy; 202 Terrabovinos S.A.S
     </p>
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-            <a href="Index-daniel.html" class="nav-link px-2 btn btn-light">Inicio</a>
+            <a href="../Index.html" class="nav-link px-2 btn btn-light">Inicio</a>
         <li class="nav-item">
             <a href="https://www.facebook.com/?locale=es_LA" class="nav-link px-2 btn btn-light">contacto</a>
         </li>
-
+        </li>
     </ul>
 
 </footer>
